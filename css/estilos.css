@@ -1,8 +1,13 @@
 body{
   background-image:url("../img/cover50.jpg");
   background-repeat:no-repeat;
-  background-position:top right;
+  background-position:bottom;
   background-size:auto;
+  background-attachment: fixed;
+}
+
+nav{
+  width:100%;
 }
 
 .center{
@@ -16,10 +21,4 @@ body{
 
 .icon-color2{
   color:gray;
-}
-
-@media(max-width:600px){
-  body{
-    width:100%;
-  }
 }
